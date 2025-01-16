@@ -69,12 +69,42 @@ Here I assembled the circuit on a breadboard.
 
 ![MAX30100-DS18B20-DHT11](https://github.com/user-attachments/assets/a47a074e-bb73-4eb9-abc0-11dde037ffd7)
 
+
 Results & Working of the Project:
 
 After uploading the code, open the serial monitor. The ESP32 will attempt to connect to the network. Once successfully connected, it will display the IP address.
+
 ![1-1-528x540](https://github.com/user-attachments/assets/cffab865-3500-400b-9b90-7152be8fe928)
 
 Copy the IP Address, paste it into any web browser, and press Enter. This will display details such as room temperature, room humidity, heart rate, blood oxygen level, body temperature, and more.
 
 ![s1-960x455](https://github.com/user-attachments/assets/49359c9b-5a1c-43a5-8f1b-22e6bed26fac)
+
+Display Health Data:
+
+Displaying health data effectively is essential for enabling users to monitor their health status, 
+detect trends, and make informed decisions about their well-being. The web interface of our 
+IoT-based healthcare system should employ various techniques for presenting health data in a 
+clear, meaningful, and actionable manner.
+
+![Picture1](https://github.com/user-attachments/assets/4f064172-b087-4143-b818-15e3ade671e2)
+
+
+
+
+
+Functional testing of sensors is
+essential to ensure that they accurately measure health metrics and provide reliable
+data to the ESP32 microcontroller. The sensors used in our IoT-based healthcare
+system, including the MAX30100, DS18B20, and DHT11, undergo rigorous testing to
+validate their functionality and performance.
+
+
+
+![Picture2](https://github.com/user-attachments/assets/a155c2ed-b1ca-4bfd-a317-6c6c16cc5a2e)
+
+
+Conclusion:
+
+In conclusion, our system offers a seamless solution for real-time monitoring of vital health parameters, empowering users with continuous insights into their well-being. By integrating IoT technology, it enables remote access to health data, promoting convenience and proactive health management. The user-friendly web interface enhances accessibility, while compatibility with healthcare platforms ensures smooth integration with existing systems. This innovative approach supports early detection, timely intervention, and improved continuity of care, making it a valuable tool for modern healthcare.
  
